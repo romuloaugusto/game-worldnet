@@ -1,0 +1,26 @@
+In this modeling I used some OOP concepts, such as:
+
+-Classes: Rick Class
+
+-Attribute: 'Name' property in the Character class
+
+-Method: Method behavior in class Katana
+
+-Inheritance: Class Katana who inherits from Weapon
+
+-Association: Class Character has a Weapon. It is a aggregation that means a
+weak type of association, because Weapon exist independently of Character.
+
+-Packages: com.game.character
+
+-Encapsulation: In the Character class the attribute 'name' is protected. 
+And it has set and get access methods.
+
+-Polymorphism: All classes that extend from Weapon, for example Katana and Revolver 
+can invoke Weapon methods.
+
+The Character and Weapon classes are abstract classes. This way we can have behaviors
+and attributes in the superclass that will be inherited by the child classes. And if 
+it is necessary to add a common property to the weapons, for example a property called 
+damage, just add this property in the class Weapon.
+
